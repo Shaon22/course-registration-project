@@ -1,14 +1,21 @@
 import { useState } from "react"
 import Courses from "./assets/Components/Courses/Courses"
 import CartItems from "./assets/Components/CartItems/CartItems"
+import swal from 'sweetalert';
+
 
 function App() {
   const [cartItems,setCartItems]=useState([])
 const handleSelect=course=>{
-  const newCartItems=[...cartItems,course]
+  const exist=cartItems.find((item)=>item.id==course.id)
+  if(exist){
+    swal("Sorry", "You already added this course", "error");
+  }
+  else{
+    const newCartItems=[...cartItems,course]
   setCartItems(newCartItems)
   }
- 
+} 
   return (
    
     <>
