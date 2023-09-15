@@ -1,0 +1,81 @@
+[
+    {
+        "id":1,
+        "cover": "https://i.ibb.co/K201kHJ/Rectangle-2-2.png",
+        "title": "Introduction to C Programming",
+        "short_description": "Learn the basics of programming with this introductory guide.",
+        "price": 29.99,
+        "credit_hr": 3
+    },
+    {
+        "id":2,
+        "cover": "https://i.ibb.co/GC4Y804/Rectangle-2-3.png",
+        "title": "Introduction to Algorithms",
+        "short_description": "A comprehensive overview of data science concepts and techniques.",
+        "price": 49.99,
+        "credit_hr": 4
+    },
+    {
+        "id":3,
+        "cover": "https://i.ibb.co/nwktp4K/Rectangle-2-4.png",
+        "title": "Introduction to C++ for DSA",
+        "short_description": "Explore the rich history of art from ancient times to modern movements.",
+        "price": 39.99,
+        "credit_hr": 3
+    },
+    {
+        "id":4,
+        "cover": "https://i.ibb.co/5xT0s1d/Rectangle-3.png",
+        "title": "Basic Data Structures",
+        "short_description": "Get a solid foundation in chemistry with this textbook.",
+        "price": 34.99,
+        "credit_hr": 4
+    },
+    {
+        "id":5,
+        "cover": "https://i.ibb.co/K6gzfXx/Rectangle-2.png",
+        "title": "Introduction to OOP Python",
+        "short_description": "Learn the principles of financial management and investment.",
+        "price": 54.99,
+        "credit_hr": 3
+    },
+    {
+        "id":6,
+        "cover": "https://i.ibb.co/HPrsSsh/Rectangle-2-5.png",
+        "title": "Software Engineering",
+        "short_description": "A concise guide to major events and developments in world history.",
+        "price": 29.99,
+        "credit_hr": 3
+    },
+    {
+        "id":7,
+        "cover": "https://i.ibb.co/sKKq291/Rectangle-3-1.png",
+        "title": "AWS, Cloud Computing",
+        "short_description": "A comprehensive physics textbook tailored for engineering students.",
+        "price": 44.99,
+        "credit_hr": 4
+    },
+    {
+        "id":8,
+        "cover": "https://i.ibb.co/n8Rch2P/Rectangle-2-1.png",
+        "title": "Database (MySQL)",
+        "short_description": "Explore the fascinating world of psychology and the human mind.",
+        "price": 49.99,
+        "credit_hr": 3
+    },
+    {
+        "id":9,
+        "cover": "https://i.ibb.co/PtPMJw1/Rectangle-2-6.png",
+        "title": "Problem-Solving Part",
+        "short_description": "Learn about environmental issues and sustainable practices.",
+        "price": 39.99,
+        "credit_hr": 3
+    }
+]
+
+
+
+
+
+
+
