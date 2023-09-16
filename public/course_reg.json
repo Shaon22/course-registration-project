@@ -3,7 +3,7 @@
         "id":1,
         "cover": "https://i.ibb.co/K201kHJ/Rectangle-2-2.png",
         "title": "Introduction to C Programming",
-        "short_description": "Learn the basics of programming with this introductory guide.",
+        "short_description": "Unlock the world of coding with our Introduction to Programming course. Learn essential skills to create software and shape your future.Lets do it!",
         "price": 29.99,
         "credit_hr": 3
     },
@@ -11,7 +11,7 @@
         "id":2,
         "cover": "https://i.ibb.co/GC4Y804/Rectangle-2-3.png",
         "title": "Introduction to Algorithms",
-        "short_description": "A comprehensive overview of data science concepts and techniques.",
+        "short_description": "Dive into the world of algorithms with our Introduction to Algorithms course. Master problem-solving and optimize your programming skills.",
         "price": 49.99,
         "credit_hr": 4
     },
@@ -19,7 +19,7 @@
         "id":3,
         "cover": "https://i.ibb.co/nwktp4K/Rectangle-2-4.png",
         "title": "Introduction to C++ for DSA",
-        "short_description": "Explore the rich history of art from ancient times to modern movements.",
+        "short_description": "Master C++ for Data Structures and Algorithms. Elevate your coding skills with our comprehensive course for problem-solving excellence.",
         "price": 39.99,
         "credit_hr": 3
     },
@@ -27,7 +27,7 @@
         "id":4,
         "cover": "https://i.ibb.co/5xT0s1d/Rectangle-3.png",
         "title": "Basic Data Structures",
-        "short_description": "Get a solid foundation in chemistry with this textbook.",
+        "short_description": "Explore Basic Data Structures: Build a strong foundation in data manipulation and organization with our comprehensive introductory course.",
         "price": 34.99,
         "credit_hr": 4
     },
@@ -35,7 +35,7 @@
         "id":5,
         "cover": "https://i.ibb.co/K6gzfXx/Rectangle-2.png",
         "title": "Introduction to OOP Python",
-        "short_description": "Learn the principles of financial management and investment.",
+        "short_description": "Dive into Object-Oriented Programming with Python. Learn the art of software design and development in our introductory course.So let get started",
         "price": 54.99,
         "credit_hr": 3
     },
@@ -43,7 +43,7 @@
         "id":6,
         "cover": "https://i.ibb.co/HPrsSsh/Rectangle-2-5.png",
         "title": "Software Engineering",
-        "short_description": "A concise guide to major events and developments in world history.",
+        "short_description": "Explore Software Engineering: Learn the principles and practices of software development with our comprehensive and hands-on course.",
         "price": 29.99,
         "credit_hr": 3
     },
@@ -51,7 +51,7 @@
         "id":7,
         "cover": "https://i.ibb.co/sKKq291/Rectangle-3-1.png",
         "title": "AWS, Cloud Computing",
-        "short_description": "A comprehensive physics textbook tailored for engineering students.",
+        "short_description": "Dive into AWS Cloud Computing: Harness the power of cloud technology with our course. Unleash scalable, reliable solutions for modern businesses.",
         "price": 44.99,
         "credit_hr": 4
     },
@@ -59,7 +59,7 @@
         "id":8,
         "cover": "https://i.ibb.co/n8Rch2P/Rectangle-2-1.png",
         "title": "Database (MySQL)",
-        "short_description": "Explore the fascinating world of psychology and the human mind.",
+        "short_description": "Discover the power of MySQL Database Management. Dive into efficient data storage and retrieval with our comprehensive MySQL course.",
         "price": 49.99,
         "credit_hr": 3
     },
@@ -67,7 +67,7 @@
         "id":9,
         "cover": "https://i.ibb.co/PtPMJw1/Rectangle-2-6.png",
         "title": "Problem-Solving Part",
-        "short_description": "Learn about environmental issues and sustainable practices.",
+        "short_description": "Enhance Problem-Solving Skills: Join our course to develop effective problem-solving techniques and excel in various domains.So grab your chance now",
         "price": 39.99,
         "credit_hr": 3
     }

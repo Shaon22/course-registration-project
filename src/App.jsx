@@ -2,12 +2,14 @@ import { useState } from "react"
 import Courses from "./assets/Components/Courses/Courses"
 import CartItems from "./assets/Components/CartItems/CartItems"
 import swal from 'sweetalert';
+import CartItem from "./assets/Components/CartItem/Cartitem";
 
 
 function App() {
   const [cartItems,setCartItems]=useState([])
   const [remainingCreditHr,setRemainingCreditHr]=useState(20)
   const [totalPrice,setTotalPrice]=useState(0)
+  const [totalCreditHour,setTotalCreditHour]=useState(0)
 const handleSelect=course=>{
   const exist=cartItems.find((item)=>item.id==course.id)
   let count=course.credit_hr
@@ -21,11 +23,13 @@ const handleSelect=course=>{
       priceCount+=item.price
     })
     const totalRemainingCreditHr=20-count;
+    const totalCreditHour=count
     if(count>20){
-      swal("Sorry", "You can't buy courses more than 20 credit hr", "error");
+      swal("Sorry", "You can't buy courses of more than 20 credit hr", "error");
     }
     else{
       const priceTotal=priceCount
+      setTotalCreditHour(totalCreditHour)
       setTotalPrice(priceTotal)
       setRemainingCreditHr(totalRemainingCreditHr)
       const newCartItems=[...cartItems,course]
@@ -40,9 +44,8 @@ const handleSelect=course=>{
     <h1 className="text-3xl font-bold text-center">Course Registration</h1>
       <div className="flex gap-5 p-10">
       <Courses handleSelect={handleSelect}></Courses>
-      <CartItems cartItems={cartItems} remainingCreditHr={remainingCreditHr} totalPrice={totalPrice}></CartItems>
+      <CartItems cartItems={cartItems} remainingCreditHr={remainingCreditHr} totalCreditHour={totalCreditHour} totalPrice={totalPrice}></CartItems>
       </div>
-      <h1>vag</h1>
     </>
   )
 }

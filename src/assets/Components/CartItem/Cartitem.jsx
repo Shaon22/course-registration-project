@@ -1,6 +1,6 @@
 
 
-const CartItem = ({cartItem,totalPrice}) => {
+const CartItem = ({cartItem,totalPrice,totalCreditHour}) => {
     const {title}=cartItem;
     return (
         <div>

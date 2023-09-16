@@ -6,8 +6,9 @@ const Course = ({course,handleSelect}) => {
             <img className='w-full' src={cover} alt="" />
             <h1 className="text-lg font-semibold text-[#1C1B1B] my-4">{title}</h1>
             <p className="text-xs text-gray-400">{short_description}</p>
-            <div className='flex justify-between my-5'>
+            <div className='flex justify-between items-center my-5'>
                 <h1 className="text-base text-gray-400 font-medium">$Price: {price}</h1>
+                <i class="fa-solid fa-book-open text-gray-300"></i>
                 <h1 className="text-base text-gray-400 font-medium">Credit: {credit_hr} hr </h1>
             </div>
             <div className='text-center'>
