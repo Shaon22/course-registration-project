@@ -2,7 +2,7 @@ import { useState } from "react"
 import Courses from "./assets/Components/Courses/Courses"
 import CartItems from "./assets/Components/CartItems/CartItems"
 import swal from 'sweetalert';
-import CartItem from "./assets/Components/CartItem/Cartitem";
+
 
 
 function App() {
@@ -28,7 +28,8 @@ const handleSelect=course=>{
       swal("Sorry", "You can't buy courses of more than 20 credit hr", "error");
     }
     else{
-      const priceTotal=priceCount
+      const priceTotal=
+      priceCount
       setTotalCreditHour(totalCreditHour)
       setTotalPrice(priceTotal)
       setRemainingCreditHr(totalRemainingCreditHr)
